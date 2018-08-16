@@ -25,7 +25,8 @@ class XplanesdkConan(ConanFile):
         self.cpp_info.includedirs.append('SDK/CHeaders/Widgets')
         if self.settings.os == "Windows":
             self.cpp_info.libdirs = ['SDK/Libraries/Win']
-            self.cpp_info.libs = ["XPLM_64 XPWidgets_64"]
+            self.cpp_info.libs.append("XPLM_64")
+            self.cpp_info.libs.append("XPWidgets_64")
             self.cpp_info.defines.append("APL=0")
             self.cpp_info.defines.append("IBM=1")
             self.cpp_info.defines.append("LIN=0")
