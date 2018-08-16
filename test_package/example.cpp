@@ -1,3 +1,4 @@
+#include <string>
 #include "XPLMPlugin.h"
 
 #ifndef XPLM300
