@@ -31,8 +31,7 @@ class XplanesdkConan(ConanFile):
             self.cpp_info.defines.append("LIN=0")
         elif self.settings.os == "Macos":
             self.cpp_info.libdirs = ['SDK/Libraries/Mac']
-            self.cpp_info.exelinkflags.append("-F")
-            self.cpp_info.exelinkflags.append(self.cpp_info.libdirs)
+            self.cpp_info.exelinkflags.append("-F" + self.cpp_info.rootpath + "/SDK/Libraries/Mac")
             self.cpp_info.exelinkflags.append("-framework XPLM -framework XPWidgets")
             self.cpp_info.sharedlinkflags = self.cpp_info.exelinkflags
             self.cpp_info.defines.append("APL=1")
