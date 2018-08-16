@@ -11,9 +11,6 @@ class XplanesdkConan(ConanFile):
     description = "X-Plane plugin SDK"
     settings = "os"
     
-    def package_id(self):
-        self.info.settings.build_type = None
-
     def source(self):
         zip_name = "XPSDK301.zip"
         download("http://developer.x-plane.com/wp-content/plugins/code-sample-generation/sample_templates/XPSDK301.zip", zip_name)
