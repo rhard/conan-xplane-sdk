@@ -1,3 +1,4 @@
+import platform
 from conan.packager import ConanMultiPackager
 
 
