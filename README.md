@@ -8,7 +8,7 @@
 
 X-Plane plugin SDK
 
-The packages generated with this **conanfile** can be found on [Bintray](https://bintray.com/rhard/public-conan/xplane_sdk%3Arhard).
+The packages generated with this **conanfile** can be found on [Bintray](https://bintray.com/rhard/conan/xplane_sdk%3Arhard).
 
 ## For Users: Use this package
 
