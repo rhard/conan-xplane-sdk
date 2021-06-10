@@ -1,5 +1,5 @@
 import platform
-from conan.packager import ConanMultiPackager
+from cpt.packager import ConanMultiPackager
 
 
 if __name__ == "__main__":
