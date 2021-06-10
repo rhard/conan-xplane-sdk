@@ -3,9 +3,9 @@ env:
    global:
      - CONAN_REFERENCE: "xplane_sdk/3.0.1"
      - CONAN_USERNAME: "rhard"
-     - CONAN_LOGIN_USERNAME: "rhard"
+     - CONAN_LOGIN_USERNAME: "rhard.x.plane@gmail.com"
      - CONAN_CHANNEL: "testing"
-     - CONAN_UPLOAD: "https://api.bintray.com/conan/rhard/conan"
+     - CONAN_UPLOAD: "https://rhardd.jfrog.io/artifactory/api/conan/conan"
      - CONAN_STABLE_BRANCH_PATTERN: "release/*"
 
 linux: &linux
