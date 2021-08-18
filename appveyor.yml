@@ -7,9 +7,9 @@ environment:
 
     CONAN_REFERENCE: "xplane_sdk/3.0.1"
     CONAN_USERNAME: "rhard"
-    CONAN_LOGIN_USERNAME: "rhard.x.plane@gmail.com"
+    CONAN_LOGIN_USERNAME: "admin"
     CONAN_CHANNEL: "testing"
-    CONAN_UPLOAD: "https://rhardd.jfrog.io/artifactory/api/conan/conan"
+    CONAN_UPLOAD: " http://atf.lb4.space:8081/artifactory/api/conan/conan"
     CONAN_STABLE_BRANCH_PATTERN: "release/*"
 
     matrix:
