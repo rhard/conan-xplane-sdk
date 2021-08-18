@@ -9,7 +9,7 @@ environment:
     CONAN_USERNAME: "rhard"
     CONAN_LOGIN_USERNAME: "admin"
     CONAN_CHANNEL: "testing"
-    CONAN_UPLOAD: " http://atf.lb4.space:8081/artifactory/api/conan/conan"
+    CONAN_UPLOAD: "http://atf.lb4.space:8081/artifactory/api/conan/conan"
     CONAN_STABLE_BRANCH_PATTERN: "release/*"
 
     matrix:
